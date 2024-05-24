@@ -1,0 +1,127 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #111111;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --black: #242424;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  min-height: calc(100vh - 8vh);
+  display: grid;
+  place-items: center;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  cursor: pointer;
+  color: lightskyblue;
+}
+
+/* Homepage */
+
+.homepage {
+  margin: 0 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.refuel-form {
+  margin: 16px 8px;
+  background-color: var(--black);
+  width: calc(5 * 8.33%);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.refuel-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  width: 100%;
+  margin: 8px;
+  padding: 4px 8px;
+}
+
+.refuel-input label {
+  margin-right: 8px;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.refuel-input input {
+  padding: 4px 8px;
+  width: 80%;
+}
+
+.refuel-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 8px;
+  padding: 4px 28px;
+}
+
+.refuel-buttons button {
+  padding: 4px 8px;
+  margin-left: 16px;
+}
+
+.totals {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.all-events {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  width: 100%;
+}
+
+.refuel-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 5vh;
+}
+
+.card {
+  font-size: 0.8rem;
+  padding: 8px 16px;
+  margin: 8px;
+  background-color: var(--black);
+}

@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Eka kohta */
+.eka,
+.toka {
+  padding: 2vh 0;
+}
+
+.nappula {
+  margin: 32px 0;
+  transition: transform 0.2s ease-out;
+}
+
+.nappula:hover .a,
+.nappula:hover .c {
+  fill: green;
+}
+
+.nappula:hover .b {
+  fill: darkgreen;
+}
+
+.nappula:active {
+  transform: scale(0.8);
+}
+
+/* Toka kohta */
+.muodot {
+  margin: 32px 0;
+}
+
+.muodot .aa {
+  animation: skaala 2s ease 0s alternate infinite;
+}
+
+.muodot .cc {
+  animation: varit 4s ease 0s infinite;
+}
+
+.muodot .dd {
+  animation: pumppaa 5s ease 0s infinite;
+}
+
+@keyframes skaala {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes varit {
+  0% {
+    fill: #4a82dd;
+  }
+  25% {
+    fill: lightblue;
+  }
+
+  50% {
+    fill: lightcoral;
+  }
+
+  75% {
+    fill: lightgoldenrodyellow;
+  }
+
+  100% {
+    fill: #4a82dd;
+  }
+}
+
+@keyframes pumppaa {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

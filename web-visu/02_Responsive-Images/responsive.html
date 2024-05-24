@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <!-- Menu -->
+      <nav class="section menu"></nav>
+
+      <!-- Header -->
+      <figure class="section header">
+        <div class="photo">
+          <picture>
+            <source media="(min-width: 401px)" srcset="images/photo-big.jpg" />
+            <source media="(max-width: 400px)" srcset="images/photo-tall.jpg" />
+            <img src="images/photo-small.jpg" />
+          </picture>
+          <!-- <img
+            src="images/photo-small.jpg"
+            srcset="images/photo-big.jpg 2000w, images/photo-small.jpg 1000w"
+            sizes="(min-width: 960px) 960px, 100vw"
+          /> -->
+        </div>
+      </figure>
+
+      <!-- Content -->
+      <figure class="section content">
+        <img
+          class="illustration"
+          src="images/illustration-small.png"
+          srcset="
+            images/illustration-small.png 1x,
+            images/illustration-big.png   2x
+          "
+          style="max-width: 500px"
+        />
+      </figure>
+
+      <!-- Sign up -->
+      <figure class="section sign-up">
+        <img src="images/sign-up.svg" />
+      </figure>
+
+      <!-- Feature 1 -->
+      <figure class="section feature-1">
+        <img src="images/feature.svg" />
+      </figure>
+
+      <!-- Feature 2 -->
+      <figure class="section feature-2">
+        <img src="images/feature.svg" />
+      </figure>
+
+      <!-- Feature 3 -->
+      <figure class="section feature-3">
+        <img src="images/feature.svg" />
+      </figure>
+    </main>
+  </body>
+</html>

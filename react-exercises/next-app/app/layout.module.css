@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  height: auto;
+  background-color: hsl(195, 83%, 79%);
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > * {
+  margin: 8px;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Employee {
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid lightblue;
+  padding: 16px 32px;
+  margin: 8px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameImg {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameImg img {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 4px;
+  border-radius: 50%;
+}
+
+.moreInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "7.2",
+  "version": "1.0.0",
+  "description": "## Overview These are the starter files for the project of our Learn SASS Basics course.",
+  "scripts": {
+    "build": "parcel build src/index.html --public-url ./",
+    "dev": "parcel ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  }
+}

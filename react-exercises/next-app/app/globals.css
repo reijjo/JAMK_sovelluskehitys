@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: hsl(240, 80%, 30%);
+}
+
+a:hover {
+  color: hsl(240, 80%, 60%);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 18px;
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  padding: 16px 0;
+}
+
+h3 {
+  padding: 8px;
+}

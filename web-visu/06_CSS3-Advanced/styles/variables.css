@@ -1,0 +1,9 @@
+.card {
+  --card-width: 100%;
+  --card-bg-color: #ddd;
+  --card-main-color: rgba(50, 236, 249, 0.651);
+  --card-padding: 15px 20px;
+  --card-shadow-h-offset: 10px;
+  --card-shadow-v-offset: 5px;
+  --card-shadow-blur: 5px;
+}

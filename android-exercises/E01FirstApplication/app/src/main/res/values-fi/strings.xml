@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E01 Eka</string>
+    <string name="button_txt">Klikkaa Mua!</string>
+    <string name="button_clicked_txt">Nappula painettu.</string>
+    <string name="portrait_txt">Portraittia</string>
+    <string name="landscape_txt">Landscapea</string>
+</resources>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="332dp"
+            android:contentDescription="@string/pikkukuva"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/kiviukko" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#111111"
+            android:gravity="end"
+            android:padding="16dp"
+            android:text="@string/laskuntulos"
+            android:textColor="#F5F5F5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#111111"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+                    android:gravity="center"
+                    android:text="@string/seven"
+                    android:textAlignment="center"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/eight"
+                    android:textAlignment="center"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/nine"
+                    android:textAlignment="center"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/kertaa"
+                    android:textAlignment="center"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/four"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/five"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/six"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView131"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/minus"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView102"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/one"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/two"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView122"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/three"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView132"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/plus"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/zero"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="NestedWeights,VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/C"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+
+                <TextView
+                    android:id="@+id/textView133"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="#272424"
+
+                    android:gravity="center"
+                    android:text="@string/on"
+                    android:textColor="#F5F5F5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="VisualLintButtonSize" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
