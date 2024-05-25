@@ -14,7 +14,7 @@ import { Card, Input, TextField } from "@mui/material";
 import { Button } from "@mui/base/Button";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDD77UiJQlomzBWpwBG1RnUReiQbcDIfJw",
+  apiKey: "",
   authDomain: "shoppinglist-cef55.firebaseapp.com",
   projectId: "shoppinglist-cef55",
   storageBucket: "shoppinglist-cef55.appspot.com",
